@@ -92,9 +92,12 @@ The report should contain the following:
 ### The goal of this project is to build a binary classification model using deep learning to help Alphabet Soup, a nonprofit foundation, determine which applicants are most likely to be successful if funded. The dataset provided includes over 34,000 historical records of funded organizations, with features describing organizational type, funding amount, use case, and more.Our objective is to preprocess the data and develop a neural network using TensorFlow/Keras to predict the IS_SUCCESSFUL target variable with an accuracy of at least 75%. ### 
 2.	Results: Using bulleted lists and images to support your answers, address the following questions:
 A) Data Preprocessing
-+ What variable(s) are the target(s) for your model? ### IS_SUCCESSFUL – indicates whether the funding led to successful outcomes. ### 
-+ What variable(s) are the features for your model? ### All remaining columns after dropping identification columns and encoding categoricals, for example: APPLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, ASK_AMT, INCOME_AMT, etc. ### 
-+ What variable(s) should be removed from the input data because they are neither targets nor features? ### EIN – an identification number, NAME – not relevant for training and introduces high cardinality. ###
++ What variable(s) are the target(s) for your model?
+### IS_SUCCESSFUL – indicates whether the funding led to successful outcomes. ### 
++ What variable(s) are the features for your model?
+### All remaining columns after dropping identification columns and encoding categoricals, for example: APPLICATION_TYPE, CLASSIFICATION, USE_CASE, ORGANIZATION, ASK_AMT, INCOME_AMT, etc. ### 
++ What variable(s) should be removed from the input data because they are neither targets nor features?
+### EIN – an identification number, NAME – not relevant for training and introduces high cardinality. ###
 
 B) Compiling, Training, and Evaluating the Model
 + How many neurons, layers, and activation functions did you select for your neural network model, and why? 
