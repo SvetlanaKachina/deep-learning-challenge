@@ -103,19 +103,19 @@ B) Compiling, Training, and Evaluating the Model
 + How many neurons, layers, and activation functions did you select for your neural network model, and why? 
 + Were you able to achieve the target model performance?
 + What steps did you take in your attempts to increase model performance?
-### We built and tested multiple neural network models to optimize performance:
-Final Optimized Model Architecture:
-Input Layer: 116 input features (after encoding)
-Hidden Layer 1: 128 neurons, ReLU activation
-Hidden Layer 2: 64 neurons, ReLU activation
-Hidden Layer 3: 32 neurons, ReLU activation
-Output Layer: 1 neuron, Sigmoid activation
-Why this structure?
+### We built and tested multiple neural network models to optimize performance: ###
+### Final Optimized Model Architecture: ###
+### Input Layer: 116 input features (after encoding) ###
+### Hidden Layer 1: 128 neurons, ReLU activation ###
+### Hidden Layer 2: 64 neurons, ReLU activation ###
+### Hidden Layer 3: 32 neurons, ReLU activation ###
+### Output Layer: 1 neuron, Sigmoid activation ###
+### Why this structure? ###
 We gradually increased the complexity of the model.
 More neurons and hidden layers allowed the network to capture more complex relationships in the data.
 ReLU is an effective and standard choice for hidden layers, while Sigmoid suits binary output.
 Model Performance
-Best Achieved Accuracy: ~75.2%
-Target Met: Yes, after several iterations. ### 
+### Best Achieved Accuracy: ~75.2% ###
+### Target Met: Yes, after several iterations. ### 
 3.	Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 ### The optimized deep learning model was able to achieve just over 75% accuracy, meeting Alphabet Soup’s performance goal. However, further improvements may be limited by the structure of the data or hidden biases in the features. Using Random Forest Classifier or XGBoost may inprove the results. By experimenting with these alternative methods or hybrid approaches, the foundation may achieve even higher prediction accuracy and insight into applicant success factors. ###
